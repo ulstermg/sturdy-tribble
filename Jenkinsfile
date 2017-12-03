@@ -1,14 +1,7 @@
 pipeline {
     agent	any					
-    stages	{										
-//        stage("Checkout")	{															
-//            steps	{																
-//                git	url:	
-'https://github.com/ulstermg/sturdy-tribble.git'															
-//                
-  //          }									
-   //     }
-        stage("Compile") 	{															
+    stages	{														
+	stage("Compile") 	{															
             steps	{
                 echo 'hello'
 
